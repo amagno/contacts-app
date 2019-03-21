@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ContactsAPI
+namespace ContactsApp.API
 {
 #pragma warning disable CS1591
     public class Program

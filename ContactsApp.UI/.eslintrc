@@ -1,0 +1,19 @@
+{
+  "extends": "eslint:recommended",
+  "env": {
+    "es6": true,
+    "commonjs": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 0,
+    "no-var": "error",
+    "prefer-const": "error",
+    "func-style":"error",
+    "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": true }]
+  }
+}

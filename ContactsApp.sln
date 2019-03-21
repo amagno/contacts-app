@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsApp.Domain", "Conta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsApp.Infrastructure", "ContactsApp.Infrastructure\ContactsApp.Infrastructure.csproj", "{412BFD7A-7814-42D7-A3BE-47B6A6FF6718}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsApp.FunctionalTests", "ContactsApp.FunctionalTests\ContactsApp.FunctionalTests.csproj", "{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsApp.UnitTests", "ContactsApp.UnitTests\ContactsApp.UnitTests.csproj", "{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,29 @@ Global
 		{412BFD7A-7814-42D7-A3BE-47B6A6FF6718}.Release|x64.Build.0 = Release|Any CPU
 		{412BFD7A-7814-42D7-A3BE-47B6A6FF6718}.Release|x86.ActiveCfg = Release|Any CPU
 		{412BFD7A-7814-42D7-A3BE-47B6A6FF6718}.Release|x86.Build.0 = Release|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Release|x64.Build.0 = Release|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7C80D33-7B22-4E6A-A0D2-1EFB92685DB0}.Release|x86.Build.0 = Release|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Debug|x64.Build.0 = Debug|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Debug|x86.Build.0 = Debug|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Release|x64.ActiveCfg = Release|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Release|x64.Build.0 = Release|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Release|x86.ActiveCfg = Release|Any CPU
+		{A15FC614-FCC3-43E6-ADE6-E4A89F270DAF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
